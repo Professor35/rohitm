@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 20%;
+  color: #FFF;
+}
+
+/* the styling of heading */
+h1 {
+  font-family: "Montserrat-black";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-bold";
+  font-size: 2rem;
+  color: #8f8f8f;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: cursive-bold;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Nvaigation Bar */
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.navbar-brand {
+  font-family: "ubantu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item {}
+
+.nav-link {
+  font-size: 1.9rem;
+  font-family: "Montserrat-light";
+  margin-right: 20px
+}
+
+.button-download {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%
+}
+
+/* features-section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c58;
+}
+
+/* Testimonials/-section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 200%;
+  width: 20%;
+  margin: 15%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press-section */
+#press {
+  background-color: #ef8172;
+  padding: 5%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 20%;
+  margin: 10px 20px 50px
+}
+
+em {
+  font-size: 2rem;
+  font-family: Montserrat-bold;
+}
+
+/* Pricing */
+#pricing {
+  padding: 5%;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 2% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+/* section cta */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+/* section-footer  */
+#footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: Montserrat-black;
+  color: #fff;
+}
+
+.social-icon {
+  margin: 25px 20px;
+  font-size: 1.5rem;
+}
+
+.social-icon:hover {
+  color: black;
+}
